@@ -41,6 +41,7 @@ a {
 }
 
 
+
 /*   NAVBAR   */
 nav {
 	width: 96%;
@@ -261,6 +262,150 @@ footer {
 	box-shadow: 0 0 50px grey;
 	background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////// TABLET ///////////////////////////*/
+
+@media screen and (max-width: 1150px) {
+	h1 {
+		text-align: center;
+	}
+
+	/*   NAVBAR   */
+	.images {
+		display: none;
+	}
+
+
+
+
+
+
+	/*   PRESENTATION   */
+	.content_presentation {
+		border: 1px red solid;
+		width: 600px;
+		min-width: 400px;
+	}
+
+	.content_img_presentation {
+		display: none;
+	}
+
+	.en_savoir_plus {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+
+
+
+
+
+	/*   Informations générales   */
+	.specialisation {
+		border: 1px red solid;
+		width: 320px;
+		flex-direction: column;
+		height: 700px;
+	}
+
+
+
+
+
+	/*   CONTACT   */
+	.contact {
+		border: 1px red solid;
+		flex-direction: column;
+		width: 450px;
+		padding-left: 0;
+	}
+
+	.contact ul {
+		border: 1px green solid;
+		width: 450px;
+	}
+
+	.ul_contact2 {
+		border: none;
+		padding-left: 0;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////// MOBILE ///////////////////////////*/
+
+@media screen and (max-width: 610px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	.content_presentation {
+		width: 400px;
+	}
+
+	.text_presentation {
+		border: 1px blue solid;
+		min-width: 400px;
+		width: 400px;
+		margin-left: 0;
+		font-size: 14px;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
